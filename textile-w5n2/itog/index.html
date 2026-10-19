@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>Textile Salon: до и после</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#f6f4f7;--surface:#fff;--fg:#1d1822;--muted:#5c5566;--line:#ddd6e3;--accent:#6b1a73;--crit:#b3261e;--crit-bg:#fbe9e7;--warn:#8a5a00;--warn-bg:#fff2d6;--minor:#2f5d8a;--minor-bg:#e5eff9;--ok:#1d6b3a;--ok-bg:#e3f2e8}
+@media (prefers-color-scheme:dark){:root{--bg:#141016;--surface:#1d1822;--fg:#ece7ef;--muted:#a79fb2;--line:#35293b;--accent:#d9a2e0;--crit:#ff8a80;--crit-bg:#3a1c1a;--warn:#f2c46a;--warn-bg:#3a2f12;--minor:#8fc0ee;--minor-bg:#14283b;--ok:#7dd39b;--ok-bg:#173022;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:"Golos Text","Segoe UI",system-ui,sans-serif;font-size:16px;line-height:1.55;padding:0 16px 64px}
+.wrap{max-width:900px;margin:0 auto}h1,h2,h3{line-height:1.2;margin:0;text-wrap:balance}p{margin:0}
+header{padding:40px 0 24px;display:grid;gap:12px;border-bottom:1px solid var(--line)}
+.eyebrow{font:500 12px/1 "JetBrains Mono",ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(26px,5vw,38px)}.lead{color:var(--muted);font-size:17px;max-width:66ch}
+section{padding-top:32px;display:grid;gap:16px}h2{font-size:23px}h3{font-size:18px}
+.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:4px}
+.card .was{color:var(--muted);font-size:14px;text-decoration:line-through}
+.card b{font-size:30px;line-height:1.1;color:var(--ok)}.card span{color:var(--muted);font-size:14px}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15px;table-layout:fixed}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);overflow-wrap:anywhere;vertical-align:top}
+th{font-size:12.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}tr:last-child td{border-bottom:0}
+td:first-child,th:first-child{width:36%}
+.good{color:var(--ok);font-weight:600}
+.note{color:var(--muted);font-size:14px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:10px}
+.item .top{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.tag{font:500 12px/1 "JetBrains Mono",ui-monospace,monospace;padding:5px 8px;border-radius:6px;white-space:nowrap}
+.t-ok{background:var(--ok-bg);color:var(--ok)}.t-part{background:var(--warn-bg);color:var(--warn)}.t-wait{background:var(--minor-bg);color:var(--minor)}.t-no{background:var(--crit-bg);color:var(--crit)}
+.item p{color:var(--muted)}.item p b{color:var(--fg);font-weight:600}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pair figure{margin:0;display:grid;gap:6px}
+.pair img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block;background:var(--surface)}
+.pair figcaption{font-size:13px;color:var(--muted)}
+.pair figcaption b{color:var(--fg)}
+.mob .pair{max-width:620px}
+ul{margin:0;padding-left:20px;display:grid;gap:6px}
+a{color:var(--accent)}
+footer{padding-top:36px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:36px}
+@media (max-width:620px){.pair{grid-template-columns:1fr}th{overflow-wrap:normal;hyphens:auto;text-transform:none;letter-spacing:0;font-size:12px}.card b{font-size:26px}td:first-child,th:first-child{width:40%}table{font-size:14px}th,td{padding:8px}}
+</style></head>
+<body><div class="wrap">
+
+<header>
+<div class="eyebrow">Отчёт о работах · 19 октября 2026</div>
+<h1>Textile Salon: главная страница до и после</h1>
+<p class="lead">Двенадцатого октября я сделал разбор главной страницы textile-salon.ru и нашёл, что мешает ей собирать заявки. Здесь — что по каждому пункту сделано, как это выглядит и что показывают замеры. Дизайн и структура сайта не менялись.</p>
+</header>
+
+<section>
+<h2>Коротко</h2>
+<div class="sum">
+<div class="card"><span class="was">5,3 МБ</span><b>1,7 МБ</b><span>вес главной страницы — втрое легче</span></div>
+<div class="card"><span class="was">40 МБ, сразу</span><b>8 МБ</b><span>видео — и только по нажатию «▶»</span></div>
+<div class="card"><span class="was">3 из 100</span><b>30</b><span>скорость на телефоне тем же способом, что в разборе</span></div>
+<div class="card"><span class="was">—</span><b>77 / 96</b><span>официальная проверка Google сейчас: телефон / компьютер</span></div>
+<div class="card"><span class="was">92 из 100</span><b>100</b><span>техническая поисковая оптимизация</span></div>
+<div class="card"><span class="was">76 из 100</span><b>91</b><span>удобство и доступность</span></div>
+</div>
+</section>
+
+<section>
+<h2>Замеры</h2>
+<table>
+<thead><tr><th>Показатель (телефон)</th><th>Было, 12.10</th><th>Стало, тот же способ</th><th>Google, 19.10</th></tr></thead>
+<tbody>
+<tr><td>Скорость (из 100)</td><td>3</td><td class="good">30</td><td class="good">77</td></tr>
+<tr><td>Удобство и доступность</td><td>76</td><td class="good">91</td><td class="good">91</td></tr>
+<tr><td>Поисковая оптимизация (SEO)</td><td>92</td><td class="good">100</td><td class="good">100</td></tr>
+<tr><td>Появление главного блока</td><td>17 с</td><td class="good">7,8 с</td><td class="good">5,3 с</td></tr>
+<tr><td>«Прыжки» страницы при загрузке (норма до 0,1)</td><td>0,84</td><td class="good">0,04</td><td class="good">0,045</td></tr>
+<tr><td>Вес страницы</td><td>5,3 МБ</td><td class="good">1,6–1,9 МБ</td><td>—</td></tr>
+</tbody></table>
+<table>
+<thead><tr><th>Показатель (компьютер)</th><th>Было, 12.10</th><th>Стало, тот же способ</th><th>Google, 19.10</th></tr></thead>
+<tbody>
+<tr><td>Скорость (из 100)</td><td>42</td><td class="good">67</td><td class="good">96</td></tr>
+<tr><td>Появление главного блока</td><td>1,3 с</td><td class="good">0,95 с</td><td class="good">1,1 с</td></tr>
+<tr><td>«Прыжки» страницы (норма до 0,1)</td><td>0,53</td><td class="good">0</td><td class="good">0</td></tr>
+</tbody></table>
+<p class="note">«Тот же способ» — Google Lighthouse в Chrome на моём компьютере, как в разборе 12 октября (середина из трёх прогонов). Этот способ строже к телефону, поэтому баллы ниже, чем у Google. «Google» — официальный сервис <a href="https://pagespeed.web.dev/analysis/https-textile-salon-ru/6w7kzt746e" target="_blank" rel="noopener">PageSpeed Insights</a>, 19 октября; его можно открыть и повторить самостоятельно. Оценка немного меняется от проверки к проверке.</p>
+</section>
+
+<section>
+<h2>По пунктам разбора</h2>
+
+<div class="item">
+<div class="top"><span class="tag t-ok">Сделано</span><h3>1. Форма заявки</h3></div>
+<p><b>Было:</b> телефон с «+7» и скобками форма отклоняла, подписей у полей не было, пример «8 + 6» — который роботы на самом деле обходили.</p>
+<p><b>Стало:</b> телефон в любом виде; над полями видны подписи, у обязательных — «*»; на телефоне в поле «Телефон» сразу открываются цифры. Пример убран — роботов отсеивает сам сайт, незаметно для людей. Заодно исправлена скрытая проблема: форма могла через сутки-двое начать отвечать «обновите страницу» и не отправлять заявку.</p>
+<div class="pair">
+<figure><img src="img/do-d-form.jpg" alt="Форма до: нет подписей, пример 8 + 6" loading="lazy"><figcaption><b>До:</b> серые подсказки вместо подписей, пример «8 + 6»</figcaption></figure>
+<figure><img src="img/posle-d-form.jpg" alt="Форма после: подписи над полями, без примера" loading="lazy"><figcaption><b>После:</b> подписи, «*», подсказка формата телефона</figcaption></figure>
+</div>
+</div>
+
+<div class="item mob">
+<div class="top"><span class="tag t-ok">Сделано</span><h3>2. Видео «Итоги выставки»</h3></div>
+<p><b>Было:</b> 40 МБ, начинало загружаться сразу при открытии страницы, вместо заставки — случайный размытый кадр.</p>
+<p><b>Стало:</b> файл сжат до 8 МБ (в 5 раз легче), загружается только по нажатию «▶», заставка — кадр со входа на выставку.</p>
+<div class="pair">
+<figure><img src="img/do-m-video.jpg" alt="Видео до: размытая заставка" loading="lazy"><figcaption><b>До:</b> размытый кадр, 40 МБ</figcaption></figure>
+<figure><img src="img/posle-m-video.jpg" alt="Видео после: заставка с выставки" loading="lazy"><figcaption><b>После:</b> заставка, 8 МБ, загрузка по нажатию</figcaption></figure>
+</div>
+</div>
+
+<div class="item">
+<div class="top"><span class="tag t-ok">Сделано</span><h3>3. Скорость на телефоне</h3></div>
+<p><b>Стало:</b> облегчены картинки (тот же вид в лёгком формате WebP), телефон сразу получает телефонный вариант баннера, карта и видео грузятся только когда нужны, с главной убраны файлы неиспользуемых галерей, фотолента подгружается после основного содержимого, страница больше не «прыгает» при загрузке. Итог — в таблице замеров выше.</p>
+</div>
+
+<div class="item mob">
+<div class="top"><span class="tag t-ok">Сделано</span><h3>4. Плашка cookie</h3></div>
+<p><b>Было:</b> на телефоне занимала около 40% экрана и закрывала кнопки; полупрозрачная — сквозь неё просвечивал текст.</p>
+<p><b>Стало:</b> почти вдвое меньше, плотный белый фон, аккуратная кнопка «Хорошо». Текст плашки прежний.</p>
+<div class="pair">
+<figure><img src="img/do-m-buttons.jpg" alt="Плашка cookie до" loading="lazy"><figcaption><b>До:</b> плашка закрывает кнопку «Забронировать стенд»</figcaption></figure>
+<figure><img src="img/posle-mobile-first.jpg" alt="Первый экран телефона после" loading="lazy"><figcaption><b>После:</b> компактная плашка, баннер с датами виден</figcaption></figure>
+</div>
+</div>
+
+<div class="item">
+<div class="top"><span class="tag t-part">Частично</span><h3>5. Первый экран и кнопки</h3></div>
+<p>Плашка больше не закрывает первый экран. <b>Кнопки «Забронировать стенд» / «Получить билет» на первом экране и единый стиль кнопок</b> — изменение внешнего вида, в этот этап не входило; могу предложить отдельно.</p>
+</div>
+
+<div class="item">
+<div class="top"><span class="tag t-ok">Сделано</span><h3>6. Заголовок и «визитка» страницы</h3></div>
+<p><b>Было:</b> главный заголовок для поисковиков — «Забронировать стенд», в превью ссылки — «Главная» и маленький логотип.</p>
+<p><b>Стало:</b> главный заголовок — название выставки с датами и местом; при пересылке ссылки в мессенджер — «Выставка тканей Textile Salon — 24–26 февраля 2027, Москва, ВДНХ» и баннер с датами. Следующий шаг по желанию — заголовки разделов и описание для поиска.</p>
+</div>
+
+<div class="item">
+<div class="top"><span class="tag t-ok">Сделано</span><h3>7. Картинки</h3></div>
+<p><b>Было:</b> ни одной картинки в лёгком формате WebP, «по мере прокрутки» загружались только 8 картинок из 38, у 20 картинок не было описаний.</p>
+<p><b>Стало:</b> тяжёлые картинки — в формате WebP при том же виде; всё, что ниже первого экрана, загружается по мере прокрутки; у важных картинок и фото выставки есть описания — по ним сайт находят в поиске по картинкам. Оригиналы сохранены.</p>
+</div>
+
+<div class="item">
+<div class="top"><span class="tag t-part">Частично</span><h3>8. Сторонние сервисы</h3></div>
+<p><b>Сделано:</b> карта загружается при подходе к ней (раньше — сразу), с главной убраны файлы неиспользуемых галерей. <b>Не трогали:</b> счётчики и аналитику (в том числе неработающую Amplitude) — их меняем только по вашему решению.</p>
+</div>
+
+<div class="item">
+<div class="top"><span class="tag t-ok">Сделано</span><h3>9. Доступность и мелочи на телефоне</h3></div>
+<p><b>Стало:</b> страницу можно увеличить пальцами; телефоны кликабельные — нажал и звонишь (в шапке, у организатора и внизу сайта); у карты есть название. Плюс исправлена опечатка «Политика конфиденциальности» и возвращена нижняя полоса с контактами — на главной она пропадала из-за ошибки в коде карты.</p>
+<div class="pair">
+<figure><img src="img/do-d-bottom.png" alt="Низ главной до: нет полосы с контактами" loading="lazy"><figcaption><b>До:</b> главная заканчивалась формой, полосы с контактами нет</figcaption></figure>
+<figure><img src="img/posle-d-bottom.jpg" alt="Низ главной после: карта и полоса с контактами" loading="lazy"><figcaption><b>После:</b> карта и полоса с контактами, соцсетями и политикой</figcaption></figure>
+</div>
+</div>
+
+<div class="item">
+<div class="top"><span class="tag t-wait">По решению владельца</span><h3>10. Материалы прошлой выставки</h3></div>
+<p>Картинки программы и приложения сентября 2026 оставлены как есть — по вашему решению.</p>
+</div>
+</section>
+
+<section>
+<h2>Найдено и исправлено сверх разбора</h2>
+<ul>
+<li><b>Спрятанные чужие ссылки</b> на странице «Получить билет» (часы-подделки, сайт 18+ и др.) — висели с начала 2021 года, удалены. За такие ссылки поисковики могут понижать сайт.</li>
+<li><b>Пропавшая нижняя полоса с контактами</b> на главной — возвращена.</li>
+<li><b>Форма могла перестать отправлять заявки</b> из-за устаревшей служебной метки в сохранённой копии страницы — исправлено.</li>
+</ul>
+</section>
+
+<section>
+<h2>Осталось на вашей стороне</h2>
+<ul>
+<li><b>Проверить тестовую заявку</b> с пометкой «ТЕСТ» (19 октября) в ящике mail@expo-fashion.ru — во «Входящих» и в «Спаме».</li>
+<li><b>Переслать текст поддержке SprintHost</b> — исправить настройку почты домена, из-за которой Mail.ru может не доставлять письма с сайта.</li>
+<li><b>Документ согласия</b> для галочки в форме — поставлю, как только пришлёте.</li>
+</ul>
+</section>
+
+<footer>Проверял главную страницу textile-salon.ru на телефоне и компьютере. Все изменения записаны в журнал, к каждому сохранены копия и способ отката.</footer>
+</div></body></html>
